@@ -64,7 +64,10 @@ router.put('/:id', async (req, res) => {
       res.status(404).json({ message: 'No tag ID found.' });
       return;
     }
-    res.status(200).json(tagData);
+    res.status(200).json({
+      tag_updated: tagData,
+      message: "tag updated successfully"
+    });
   } catch {
     res.status(500).json(err);
   }
@@ -83,7 +86,10 @@ router.delete('/:id', async (req, res) => {
       res.status(404).json({ message: 'No tag ID found.' });
       return;
     }
-    res.status(200).json(tagData);
+    res.status(200).json({
+      tag_deleted: tagData,
+      message: "tag deleted successfully"
+    });
   } catch (err) {
     res.status(500).json(err);
   }

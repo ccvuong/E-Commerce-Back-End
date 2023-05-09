@@ -15,7 +15,7 @@ router.get('/', async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
-  
+
 });
 
 
@@ -60,7 +60,8 @@ router.put('/:id', async (req, res) => {
       res.status(404).json({ message: 'No category ID exists.' });
       return;
     }
-    res.status(200).json(categoryData);
+    res.status(200).json({category_updated: categoryData,
+    message: "category updated successfully"});
   } catch (err) {
     res.status(500).json(err);
   }
@@ -79,11 +80,14 @@ router.delete('/:id', async (req, res) => {
       res.status(404).json({ message: 'No category ID exists.' });
       return;
     }
-    res.status(200).json(categoryData);
+    res.status(200).json({
+      category_deleted: categoryData,
+      message: "category deleted successfully"
+    });
   } catch (err) {
     res.status(500).json(err);
   }
-  
+
 });
 
 module.exports = router;
