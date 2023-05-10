@@ -49,7 +49,9 @@ Install the following in the ```terminal```:
 (TBA)
 
 ## Preview
-(TBA)
+![e commerce back end preview](https://github.com/ccvuong/E-Commerce-Back-End/assets/116984891/b8bcfda9-5cfe-4531-8715-2fc610d29e2f)
+
+
 
 ## Contributors
 [😎 Christina Vuong ](https://github.com/ccvuong)
