@@ -8,8 +8,6 @@ Build the back end for an e-commerce site. You’ll take a working ```Express.js
 
 - [Installation ⚙](#installation) 
 
-- [Demo 🔍](#demo)
-
 - [Preview 📷](#preview)
 
 - [Contributors 😎](#contributors)
@@ -44,10 +42,6 @@ Install the following in the ```terminal```:
 - [sequelize](https://www.npmjs.com/package/sequelize)
     
 - [dotenv package](https://www.npmjs.com/package/dotenv)
-
-## Demo
-https://github.com/ccvuong/E-Commerce-Back-End/assets/116984891/1b0e8d1c-8e27-45d9-968d-10a62ad23608
-
 
 
 ## Preview
