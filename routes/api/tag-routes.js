@@ -11,7 +11,6 @@ router.get('/', async (req, res) => {
       include: [{
         model: Product,
         through: ProductTag,
-        as: 'productTag_products'
       }],
 
     });
@@ -29,8 +28,7 @@ router.get('/:id', async (req, res) => {
     const tagData = await Tag.findByPk(req.params.id, {
       include: [{
         model: Product,
-        through: ProductTag,
-        as: 'productTag_products'
+        through: ProductTag,        
       }],
 
     });
