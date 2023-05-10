@@ -46,7 +46,9 @@ Install the following in the ```terminal```:
 - [dotenv package](https://www.npmjs.com/package/dotenv)
 
 ## Demo
-(TBA)
+https://github.com/ccvuong/E-Commerce-Back-End/assets/116984891/1b0e8d1c-8e27-45d9-968d-10a62ad23608
+
+
 
 ## Preview
 ![e commerce back end preview](https://github.com/ccvuong/E-Commerce-Back-End/assets/116984891/b8bcfda9-5cfe-4531-8715-2fc610d29e2f)
