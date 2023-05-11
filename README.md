@@ -8,6 +8,8 @@ Build the back end for an e-commerce site. You’ll take a working ```Express.js
 
 - [Installation ⚙](#installation) 
 
+- [Demo 🔍](#demo) 
+
 - [Preview 📷](#preview)
 
 - [Contributors 😎](#contributors)
@@ -43,10 +45,12 @@ Install the following in the ```terminal```:
     
 - [dotenv package](https://www.npmjs.com/package/dotenv)
 
+## Demo
+https://github.com/ccvuong/E-Commerce-Back-End/assets/116984891/ef28f139-b3fa-42c2-829a-96c7b8d64922
+
 
 ## Preview
 ![e commerce back end preview](https://github.com/ccvuong/E-Commerce-Back-End/assets/116984891/b8bcfda9-5cfe-4531-8715-2fc610d29e2f)
-
 
 
 ## Contributors
